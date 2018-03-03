@@ -40,3 +40,18 @@ UPDATE admin_table SET username='min',password='456' WHERE ID=2
 SELECT * FROM 表
 SELECT * FROM user_table WHERE ID=1
 ```
+
+## 子句
+
+### EHERE 条件
+```
+WHERE name='test'
+WHERE age>18
+WHERE age>18 AND score<60
+WHERE age>18 OR score<60
+```
+### ORDER 排序
+```
+ORDER BY age ASE 
+ORDER BY age DESC
+```
