@@ -56,3 +56,25 @@ ORDER BY age ASE
 ORDER BY age DESC
 ORDER BY age DESC,sales DESC
 ```
+## 集群
+```
+SELECT * FROM user_table GROUP BY calss
+SELECT calss,COUNT(class) FROM user_table GROUP BY calss
+COUNT(字段) // 计数
+MAX(字段)   // 最大值
+MIN(字段)   // 最小值
+AVG(字段)   // 平均数
+SUM(字段)   // 求和
+```
+### LIMIT 
+```
+LIMIT 5
+// 限制输出前五条
+LIMIT 5，8
+// 从第五条开始要8条
+```
+
+## 顺序
+```
+WHERE GROUP ORDER LIMIT
+```
