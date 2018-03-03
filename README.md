@@ -29,7 +29,7 @@ INSERT INTO user_table (username,password) VALUES ('my','123')
 DELETE FROM 表 EHERE 条件
 DELETE FROM user_table WHERE ID=1
 ```
-### 该
+### 改
 ```
 UPDATE 表 SET 字段=值，字段=值 WHERE 条件
 UPDATE admin_table SET username='min',password='456' WHERE ID=2
