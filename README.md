@@ -31,7 +31,7 @@ DELETE FROM user_table WHERE ID=1
 ```
 ### 该
 ```
-UPDATE 表 SET 字段=值，字段值 WHERE 条件
+UPDATE 表 SET 字段=值，字段=值 WHERE 条件
 UPDATE admin_table SET username='min',password='456' WHERE ID=2
 ```
 ### 查
