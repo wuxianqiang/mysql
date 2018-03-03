@@ -20,7 +20,7 @@ const db = mysql.createPool(
 
 ### 增
 ```
-INSERT INTO user_table username,password VALUES 'my','123'
+INSERT INTO user_table (username,password) VALUES ('my','123')
 ```
 ### 删
 删除`user_table`数据库中`ID=1`的数据
