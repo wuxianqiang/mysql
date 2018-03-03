@@ -54,4 +54,5 @@ WHERE age>18 OR score<60
 ```
 ORDER BY age ASE 
 ORDER BY age DESC
+ORDER BY age DESC,sales DESC
 ```
